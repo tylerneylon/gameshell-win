@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="glew">
+      <UniqueIdentifier>{fbcafa0b-79a7-42f3-a81c-e95a51e1a30b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glm">
+      <UniqueIdentifier>{40b6ef3f-ee57-4d97-aa71-55b664985fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="oswrap">
+      <UniqueIdentifier>{924818c3-ae6b-42ac-a899-e5cabadb8a5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{4cf269f5-f865-476b-93dc-6285aea92347}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+    <Text Include="glm\CMakeLists.txt">
+      <Filter>glm</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glew\glew.h">
+      <Filter>glew</Filter>
+    </ClInclude>
+    <ClInclude Include="glew\wglew.h">
+      <Filter>glew</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\common.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\exponential.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\ext.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\fwd.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\geometric.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\glm.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\integer.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\mat2x2.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\mat2x3.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\mat2x4.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\mat3x2.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\mat3x3.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\mat3x4.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\mat4x2.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\mat4x3.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\mat4x4.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\matrix.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\packing.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\trigonometric.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\vec2.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\vec3.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\vec4.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="glm\vector_relational.hpp">
+      <Filter>glm</Filter>
+    </ClInclude>
+    <ClInclude Include="oswrap\audio.h">
+      <Filter>oswrap</Filter>
+    </ClInclude>
+    <ClInclude Include="oswrap\cbit.h">
+      <Filter>oswrap</Filter>
+    </ClInclude>
+    <ClInclude Include="oswrap\crypt.h">
+      <Filter>oswrap</Filter>
+    </ClInclude>
+    <ClInclude Include="oswrap\cursor.h">
+      <Filter>oswrap</Filter>
+    </ClInclude>
+    <ClInclude Include="oswrap\dbg.h">
+      <Filter>oswrap</Filter>
+    </ClInclude>
+    <ClInclude Include="oswrap\draw.h">
+      <Filter>oswrap</Filter>
+    </ClInclude>
+    <ClInclude Include="oswrap\file.h">
+      <Filter>oswrap</Filter>
+    </ClInclude>
+    <ClInclude Include="oswrap\img.h">
+      <Filter>oswrap</Filter>
+    </ClInclude>
+    <ClInclude Include="oswrap\io.h">
+      <Filter>oswrap</Filter>
+    </ClInclude>
+    <ClInclude Include="oswrap\now.h">
+      <Filter>oswrap</Filter>
+    </ClInclude>
+    <ClInclude Include="oswrap\oswrap.h">
+      <Filter>oswrap</Filter>
+    </ClInclude>
+    <ClInclude Include="oswrap\winutil.h">
+      <Filter>oswrap</Filter>
+    </ClInclude>
+    <ClInclude Include="oswrap\xy.h">
+      <Filter>oswrap</Filter>
+    </ClInclude>
+    <ClInclude Include="glhelp.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glew\glew.c">
+      <Filter>glew</Filter>
+    </ClCompile>
+    <ClCompile Include="oswrap\audio.c">
+      <Filter>oswrap</Filter>
+    </ClCompile>
+    <ClCompile Include="oswrap\crypt.c">
+      <Filter>oswrap</Filter>
+    </ClCompile>
+    <ClCompile Include="oswrap\cursor.c">
+      <Filter>oswrap</Filter>
+    </ClCompile>
+    <ClCompile Include="oswrap\dbg.c">
+      <Filter>oswrap</Filter>
+    </ClCompile>
+    <ClCompile Include="oswrap\draw.c">
+      <Filter>oswrap</Filter>
+    </ClCompile>
+    <ClCompile Include="oswrap\file.c">
+      <Filter>oswrap</Filter>
+    </ClCompile>
+    <ClCompile Include="oswrap\img.cpp">
+      <Filter>oswrap</Filter>
+    </ClCompile>
+    <ClCompile Include="oswrap\io.c">
+      <Filter>oswrap</Filter>
+    </ClCompile>
+    <ClCompile Include="oswrap\now.c">
+      <Filter>oswrap</Filter>
+    </ClCompile>
+    <ClCompile Include="oswrap\xy.c">
+      <Filter>oswrap</Filter>
+    </ClCompile>
+    <ClCompile Include="game.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glhelp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameShell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Game.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\f.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\v.glsl">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
